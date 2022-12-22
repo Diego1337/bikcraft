@@ -19,7 +19,7 @@
 
 .bicicleta-imagens img {
   flex: 1;
-  min-width: 180px;
+  min-width: 270px;
 }
 
 .bicicleta-imagens img:first-child {
@@ -96,6 +96,12 @@
   color: var(--cor-6);
 }
 
+@media (max-width: 1200px) {
+  .bicicleta-imagens img {
+    flex: 1;
+    min-width: 300px;
+  }
+}
 @media (max-width: 800px) {
   .bicicleta {
     grid-template-columns: 1fr;
